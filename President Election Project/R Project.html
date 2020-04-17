@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>STAT 133; Final Project; Group Name </title>
+
+  <style type="text/css">
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    color: blue; }
+  figcaption {
+    font-style: italic;
+    font-size: 130%;
+}
+p {font-size: 100%}
+
+  </style>
+</head>
+
+<body>
+<h1>Final Project- Plots & Maps</h1>
+<h3>Member names</h3>
+<p>
+Anna Liu
+</p>
+<p>
+Guo Chen
+</p>
+<p>
+Huidi Wang
+</p>
+<p>
+Yangxi Li
+</p>
+<p>
+Yujun Mao
+</p>
+
+<h2>Introduction</h2>
+
+<p>
+We use the predictors developed in terms of the 2004 president election to predict winners in the 2012 election and make several plots to show it visually.
+</p>
+<p>
+Firstly, we try to figure out some result in terms of the error rate: one is to distinguish favors for Republican Party among counties; then we use rpart to see how to make the least error while predicting.
+</p>
+<p>
+Secondly, as ethnicity plays an important role in the president election every term, we tried to find some information in terms of this topic. We choose Asian as one of the representitives. From the data frame, we see from the plot we made later that how Asian favors each party respectively.
+</p>
+<p>
+The maps at the end ultimately show the change of the favor rate for the Republican Party (red) and Democratic Party (blue) and the vote rate for the two parties respectively (also treated as the fifth plot).
+</p>
+</p>
+
+<h2>Plots</h2>
+
+<figure align="center">
+<img src="errorate.png"/>
+<figcaption>
+Description: 
+In our knn prediction, we choose k from 2 to 50. Here we eliminate first neighbor because it is the test county itself.
+According to the graph, error rate reaches minimum when k is around 3. That is, when we look at the first 3 neighbors, it better predicts if each county favors Republican Party or not because these three counties have the most similar features as the test county. The error rate becomes higher when k becomes larger because more irrelevant counties are invovled. In our case, more irrelevant neighbors (counties) reduce the accuracy of prediction.
+</figcaption>
+</figure>
+
+<figure align="center">
+<img src="errorpart.png"/>
+<figcaption>
+This plot shows the change of error rates when we randomly change the variable nunbers and variables of the rpart function from the plot, we know that roughly when we use fewer variables, we will have higher error rate. This makes sense because when we have more variables, we can evaluate a county's situation more comprehensively, which will help the rpart to make more accurate predictions</figcaption>
+</figure>
+
+<figure align="center">
+<img src="SupRate.jpg"/>
+<figcaption>
+This plot shows the support rate of each party among Asians. According to the plot,in counties where there are less Asian, the support rate are higher for republican. And the plot is roughly symetry, so we know that majority of Asians vote for either Republic or Demoncrates, only a few vote for independent parties.
+</figcaption>
+</figure>
+
+
+<figure align="center">
+<img src="piechart.png"/>
+<figcaption>
+Description: According to our prediction and the proportion returned by knn, the pie chart indicates that GOP wins more counties than Democrats in popular election. The result is predicted by kth neigbors and cannot indicate the winner of presidential election because the result must be weighted by other factors. 
+</figcaption>
+</figure>
+
+<h2>Map</h2>
+<figure align="center">
+<img src="map1.png"/>
+<figcaption>
+Explaination:
+To compare the tendency of shift in Republican and Democrat votes from 2004 to 2012, I make this fancy plot.The data used in this plot are calculated through differing the share of 2012 Democrat votes from the share of 2004 Democrat votes rate, known as "change_Dem" in the dataframe "Ratiocompare". The positive data represents there are more supporting rate for Democrat in 2012 comparing to 2004. The bigger change, the strongerer surpporting Democrat, which is shown in the dark blue.The negative data represents there are less supporting rate for Democrat in 2012 comparing to 2004. The bigger absolute value, the more people shift mind to support Republic, which is shown in the dark red. 
+As we can see in the map, almost half of area has a stronger supporting in Democrat than 2004 vote.
+When loading 2004 data, we miss some counties in virginia, which is shaded by white color.
+</figcaption>
+</figure>
+
+<figure align="center">
+<img src="map2.jpg"/>
+<figcaption class="object-inline-figcaption">
+
+<p class="object-inline-figcaption-caption"> The second fancy plot represents winning candidate's percentage of vote in 2012 president election.
+The data shown in map is calculted by differing vote rate for Democrat from the rate for Republic in 2012. 
+The positive data means those counites prefer Democrat which is shaded in blue color, in opposite, the negative data means the counties prefer Republic which are shaded in red color.
+The bigger absolute numbers give stronger supporing rate for each party, and the color become darker.</p>
+The overall map shows that most counties supported the Republican Party. However, this does not indicate the final result for the president election which is weighted by every county's population. Based on the map, most people in states of California, Washington, Arizona, New Mexico, South Carolina, Maine, etc. favored the democrat.
+</figcaption>
+</figure>
+
+
+<hr>
+<address></address>
+
+</body> </html>

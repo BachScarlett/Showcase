@@ -1,0 +1,383 @@
+---
+title: "Kaggle Housing Price Project"
+author: "Huidi Wang"
+date: "March 13, 2017"
+output: pdf_document
+---
+
+## Project description
+The data used in this project are sourced from Kaggle Housing Project data with 1459 test and 1480 train observations. It shows the relationship between housing price and other thirteen related varibles, such as neighborhood, yearsold, building type, etc.. Our goal is to figure out how these measurements influence the reference viarible through linear regression, decision tree, random forest, and boosting methods.\par
+
+## 1. Understand data and find out NAs
+\hspace{0.2 in}1) Understand all data\par
+```{r,results='hide', message=FALSE,warning=FALSE,echo=FALSE}
+library(glmnet)
+library(mice) 
+library(corrplot)
+library(faraway)
+library(tabplot)
+library(rpart)
+library(rpart.plot)
+library(randomForest)
+library(xgboost)
+setwd("~/Desktop/BITTIGER_COURSES/DS501")
+train<-read.csv("train.csv", stringsAsFactors = F)
+test<-read.csv("test.csv", stringsAsFactors = F)
+```
+\par
+A summary of 81 variables\par
+```{r, echo=F}
+str(train)
+```
+\par
+Sample of head of train data\par
+```{r,echo=FALSE}
+head(train)[,1:8]
+```
+\par
+\par
+\hspace{0.2 in}2)Check how many NAs in each feature in order\par
+```{r,echo=F}
+sort(sapply(train, function(x) {sum(is.na(x))}), decreasing=T)
+sortNA=sort(sapply(train, function(x) {sum(is.na(x))}), decreasing=T)
+```
+Percentage of NAs in all train dataset\par
+```{r, echo=F}
+sum(is.na(train)) / (nrow(train) *ncol(train))
+```
+\hspace{0.2 in}3) To deal with missing values: (1) Actually missing too many values: delete them (2) Some missing values are meaningful (like BsmtUnfSF~BsmtExposure, BsmtFinType2, BsmtQual, BsmtCond, BsmtFinType1) (3) Simple missing might due to operation or data transfer --> we could use different ways to impute, such as mean, or median (4) More advanced way is to use model based: using other features to predict the missing value (MICE) \par
+
+```{r, echo=F}
+
+#(1)
+Keep.col=sortNA[sapply(sortNA, function(x) {x<0.05*dim(train)[1]})]
+train_lessNA=train[,names(Keep.col)]
+
+#(2) Some missing values are meaningful (like BsmtUnfSF~BsmtExposure, BsmtFinType2, BsmtQual, BsmtCond, BsmtFinType1)
+train_lessNA$BsmtExposure[which(is.na(train$BsmtExposure))] <- 'Unf'
+train_lessNA$BsmtFinType1[which(is.na(train$BsmtFinType1))] <- 'Unf'
+train_lessNA$BsmtFinType2[which(is.na(train$BsmtFinType2))] <- 'Unf'
+train_lessNA$BsmtQual[which(is.na(train$BsmtQual))] <- 'Unf'
+train_lessNA$BsmtCond[which(is.na(train$BsmtCond))] <- 'Unf'
+
+
+#(3) Simple missing might due to operation or data transfer --> we could use different ways to impute, such as mean, or median
+
+train_lessNA$MasVnrArea[which(is.na(train_lessNA$MasVnrArea))] <- median(train_lessNA$MasVnrArea, na.rm = T)
+train_lessNA$MasVnrArea[which(is.na(train_lessNA$MasVnrType))] <- NA
+
+#(4) More advanced way is to use model based: using other features to predict the missing value
+
+train_lessNA$MasVnrType <- as.factor(train_lessNA$MasVnrType)
+train_lessNA$Electrical <- as.factor(train_lessNA$Electrical)  # note the categorical (character) variable needs to be factor in mice
+imp.train <- mice(train_lessNA, m=5, method='cart', printFlag=FALSE)
+train_noNA <- complete(imp.train)
+
+train_noNA$MasVnrType <- as.character(train_noNA$MasVnrType)
+train_noNA$Electrical <- as.character(train_noNA$Electrical) 
+
+train=train_noNA
+```
+
+## 2. Analyze each variable both categorical (barchart) and continuous (plot or frequency)
+\hspace{0.2 in}1) Show relationship using barplot and boxplot\par
+```{r, echo=F}
+par(mfrow = c(2 ,2))
+par(mar = rep(2, 4))
+barplot(table(train$OverallQual)/dim(train)[1],xlab="Quality", ylab="Number of houses for Each Quality", 
+        ylim=c(0,0.3),main="Overall Quality Barchart")
+plot(density(train$SalePrice))
+```
+
+```{r, echo=F}
+par(mfrow = c(2 ,2))
+par(mar = rep(2, 4))
+plot(density(log(train$SalePrice))) 
+boxplot(train$SalePrice, main = "boxplot Price")
+```
+\par
+\par
+\hspace{0.2 in}2) Check Normality and use log(SalePrice) for following all analysis\par
+```{r, echo=F}
+#Check Data Normality
+par(mfrow = c(2 ,2))
+par(mar = rep(2, 4))
+qqnorm(train$SalePrice)
+qqline(train$SalePrice)
+qqnorm(log(train$SalePrice))
+qqline(log(train$SalePrice))
+train_noNA$SalePrice=log(train_noNA$SalePrice)
+```
+
+## 3. Find out Important Features 
+\hspace{0.2 in}1) Combine some correlated features. \par
+```{r}
+# 1stflr+2ndflr+lowqualsf+GrLivArea = All_Liv_Area
+train_noNA$AllSF <- with(train_noNA, X1stFlrSF+X2ndFlrSF+GrLivArea + TotalBsmtSF)
+# Total number of bathrooms
+train_noNA$TotalBath <- with(train_noNA, BsmtFullBath + 0.5 * BsmtHalfBath + FullBath + 0.5 * HalfBath)
+#remove unnesessary features
+drops=c("Id", "BsmtFullBath" , "BsmtHalfBath", "FullBath", "HalfBath", "X1stFlrSF","X2ndFlrSF","GrLivArea","TotalBsmtSF")
+train_noNA=train_noNA[,!names(train_noNA)%in%drops]
+raw_0=train_noNA
+```
+```{r, echo=F}
+set.seed(1)
+train.ind <- sample(1:dim(raw_0)[1], dim(raw_0)[1] * 0.7)
+raw0_train <- raw_0[train.ind, ]
+raw0_test <- raw_0[-train.ind, ]
+
+```
+\par
+\hspace{0.2 in}2) Backward selection: ignore the biggest p-value after doing linear regression \par
+```{r, echo=F}
+summary(lm(SalePrice~. , raw_0))
+drop_back=c("BsmtCond","MasVnrType","Electrical","Id","MSSubClass","LotShape","HouseStyle","Exterior1st","Exterior2nd","Foundation","CentralAirY","PavedDrive","PavedDrive","EnclosedPorch", "MiscVal")     
+raw_1=train_noNA
+raw_1=raw_1[,!names(raw_1)%in%drop_back]
+raw_for_prediction=raw_1
+```
+\hspace{0.2 in} So relative weak features would be c( "BsmtCond","MasVnrType","Electrical","Id","MSSubClass","LotShape", "HouseStyle","Exterior1st","Exterior2nd","Foundation","CentralAirY","PavedDrive","PavedDrive","EnclosedPorch", "MiscVal")\par    
+\hspace{0.2 in} 3) Using Lasso to find most predictable features, which will be described in next Prediction part.\par
+\hspace{0.2 in} 4) Seperate categorical data and continuous data, get to explore relationship between each feature and outcome \par
+--Numerical Data: Use corrplot to pick stronger continuous feature (Correlation)\par
+```{r, echo=F}
+contVar=names(train[,sapply(train, is.numeric)])
+trainCont <- train[, contVar]
+  
+
+correlations <- cor(trainCont)
+par(mfrow = c(1 ,1))
+corrplot(correlations, method = "square")
+rowInd=apply(correlations, 1, function(x) {sum(x>0.5|x< -0.5)>1})
+```
+\par
+```{r, echo=F}
+par(mfrow = c(1 ,1))
+corrplot(correlations[rowInd,rowInd],method="square")
+numer_var=names(rowInd)[rowInd]
+```
+```{r}
+#Basically, the darker blue square shows stronger relationship, so the stronger features might be:
+numer_var
+```
+
+---Categorical Data: Using Tabplot\par
+```{r, echo=F}
+categ_var=c("SalePrice", names(train)[!names(train)%in%names(train[,sapply(train, is.numeric)])])
+#train$SalePrice=exp(train$SalePrice)
+```
+```{r}
+#for (i in 1:5) {
+#  plot(tableplot(train[,categ_var], select = c(1, ((i - 1) * 5 + 1):(i * 5)),
+#                 nBins = 100, plot = FALSE), fontsize = 12)
+#}
+#train$SalePrice=log(train$SalePrice)
+```
+
+
+## 3. Prediction
+\hspace{0.2 in} 1) Ridge and Lasso\par
+VIF is calculated for each feature and select all vif(feature)>10. Showing that lots of features exist correlation with other features. I'll use Lasso and Ridge to eliminate it and predict results. \par
+```{r, echo=F}
+raw_1=raw_for_prediction
+for(i in 1:dim(raw_1)[2]) {
+  if(is.character(raw_1[, i])) {
+    raw_1[, i] <- as.factor(raw_1[, i])
+  }
+}
+raw1_train <- raw_1[train.ind, ]
+raw1_test <- raw_1[-train.ind, ]
+
+lmm=lm(SalePrice~. , raw_1)
+vif(lmm)[vif(lmm)>10]
+```
+\par
+\par
+Using lambda.1se to predict\par
+\par
+\par
+```{r, echo=F}
+
+ind <- model.matrix( ~., raw1_train[,-49])
+dep=raw1_train$SalePrice
+fit <- glmnet(x=ind, y=dep)
+plot(fit, xvar = "lambda", label = T)
+cvfit <- cv.glmnet(ind, dep)
+new_x <- model.matrix( ~., raw1_test[,-49])
+par(mfrow = c(1 ,1))
+plot(cvfit)
+test.pred=predict(cvfit,newx = new_x,s="lambda.1se")
+```
+\par
+Calculate sum of square error and RMSE\par
+```{r,echo=F}
+sum((test.pred[1:length(test.pred)] - raw1_test$SalePrice)^2)  #[1] 13.63443  RMSE=0.1762
+sse=sum((test.pred[1:length(test.pred)] - raw1_test$SalePrice)^2)
+rmse=sqrt(sse/length(test.pred))
+rmse  
+
+```
+\par
+Find out strong features from Lasso method:\par
+```{r, echo=F}
+coef(cvfit, s = "lambda.1se")  
+
+                         #==>Strong Features: BsmtExposure,MSZoning, LotArea, StreetPave, LotConfig, Condition, MasVnrArea,Neighborhood,OverallQual,YearBuilt,YearRemodAdd,BsmtFinSF1,Heating, KitchenQual,Functional, ScreenPorch,Fireplaces,GarageCars ,GarageArea ,SaleType, AllSF, TotalBath
+
+
+```
+\par
+\par
+\par
+\hspace{0.2 in} 2) Decision Tree\par
+```{r, echo=F}
+train_DT=raw_for_prediction
+
+set.seed(2)
+train.ind <- sample(1:dim(train_DT)[1], dim(train_DT)[1] * 0.7)
+train.data <- train_DT[train.ind, ]
+test.data <- train_DT[-train.ind, ]
+
+train_DT=raw_1
+library(rpart)
+formula_DT <- paste("SalePrice ~.-SalePrice ")
+
+set.seed(1)
+tree1 <- rpart(formula_DT, method = 'anova', data = train.data, 
+               control=rpart.control(cp=0.01))     
+tree1
+par(mfrow = c(1 ,1))
+{plot(tree1)
+text(tree1, cex=0.8, xpd=T) }
+```
+\par
+\par
+```{r, echo=F}
+par(mfrow = c(1 ,1))
+plotcp(tree1)
+bestcp <- tree1$cptable[which.min(tree1$cptable[,"xerror"]), "CP"]  #find cp to make minimum xerror
+```
+
+\par
+Calculate SSE and RMSE\par
+```{r, echo=F}
+test.data$Condition2[which(!test.data$Condition2 %in% train.data$Condition2)] <- NA
+test.data$RoofMatl[which(!test.data$RoofMatl %in% train.data$RoofMatl)] <- NA
+test.data$ExterCond[which(!test.data$ExterCond %in% train.data$ExterCond)] <- NA
+#test.data$Exterior2nd[which(!test.data$Exterior2nd %in% train.data$Exterior2nd)] <- NA
+#test.data$Exterior1st[which(!test.data$Exterior1st %in% train.data$Exterior1st)] <- NA
+tree.pruned <- prune(tree1, cp = bestcp)
+test.pred <- predict(tree.pruned, test.data)
+SSE=sum((test.pred - test.data$SalePrice)^2)     #[1] 18.77595
+SSE
+Rmse=sqrt(SSE/length(test.pred))
+Rmse
+```
+\par
+Draw Tree using another way
+\par
+```{r, echo=F}
+par(mfrow = c(1 ,1))
+prp(tree.pruned, faclen = 0, cex = 0.5)
+```
+
+\hspace{0.2 in} 3) Random Forest \par
+```{r, echo=F}
+train_DT=raw_for_prediction
+set.seed(2)
+train.ind <- sample(1:dim(train_DT)[1], dim(train_DT)[1] * 0.7)
+train.data <- train_DT[train.ind, ]
+test.data <- train_DT[-train.ind, ]
+
+rf.formula <- paste("SalePrice ~ .-SalePrice ")
+
+set.seed(333)
+for(i in 1:dim(train_DT)[2]) {
+  if(is.character(train_DT[, i])) {
+    train_DT[, i] <- as.factor(train_DT[, i])
+  }
+}
+train.data <- train_DT[train.ind, ]
+test.data <- train_DT[-train.ind, ]
+rf <- randomForest(as.formula(rf.formula), data = train.data, importance = TRUE) #default 500
+par(mfrow=c(1,1))
+par(mar=rep(0.5,4))
+varImpPlot(rf)
+importanceOrder= order(-rf$importance[, "%IncMSE"])
+```
+\par
+Strong Feature shown in Random Forest are:\par
+
+```{r, echo=F}
+names=rownames(rf$importance)[importanceOrder]  
+names
+```
+\par
+Calculate SSE and RMSE ==> Find out random forest has a obviously decrese on SSE and RMSE\par
+```{r, echo=F}
+test.pred <- predict(rf, test.data) 
+SSE=sum((test.pred - test.data$SalePrice)^2)   #much smaller [1] 8.359551
+SSE
+RMSE=sqrt(SSE/length(test.pred))
+RMSE
+```
+
+\hspace{0.2 in} 4) Boosting 
+```{r,echo=F}
+train.label <- train.data$SalePrice
+test.label <- test.data$SalePrice
+
+feature.matrix <- model.matrix( ~ ., data = train.data[,-49])
+set.seed(3333)
+gbt <- xgboost(data =  feature.matrix, 
+               label = train.label, 
+               max_depth = 8, # for each tree, how deep it goes
+               nround = 20, # number of trees
+               objective = "reg:linear",
+               nthread = 3,
+               verbose = 2)
+importance <- xgb.importance(feature_names = colnames(feature.matrix), model = gbt)
+```
+\par
+Show first sixth important features and plot\par
+```{r, echo=F}
+head(importance)
+library(Ckmeans.1d.dp)
+xgb.plot.importance(importance[1:6,])
+```
+\par
+\par\par
+Using Cross Validation to find nround best used in xgboost funtion to minimum prediction error
+```{r, include=FALSE, echo=F}
+par <- list( max_depth = 8,
+             objective = "reg:linear",
+             nthread = 3,
+             verbose = 2)
+gbt.cv <- xgb.cv(params = par,
+                 data = feature.matrix, label = train.label,
+                 nfold = 5, nrounds = 100)
+```
+
+```{r, echo=F}
+par(mfrow=c(1, 1))
+{plot(gbt.cv$evaluation_log$train_rmse_mean, type = 'l')
+lines(gbt.cv$evaluation_log$train_rmse_mean, col = 'red')}
+nround = which(gbt.cv$evaluation_log$test_rmse_mean == min(gbt.cv$evaluation_log$test_rmse_mean)) # 36
+```
+```{r, include=FALSE, echo=F}
+gbt <- xgboost(data = feature.matrix, 
+               label = train.label,
+               nround = nround,
+               params = par)
+```
+\par
+Calculate SSE and RMSE\par
+```{r, echo=F}
+prediction <- predict(gbt, model.matrix( ~ ., data = test.data[, -49]))
+sum((prediction - test.data$SalePrice)^2)
+sqrt(sum((prediction - test.data$SalePrice)^2)/dim(test.data)[1])
+
+```
+
+
