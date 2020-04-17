@@ -4,6 +4,6 @@ My name is Scarlett. I got my Bachelor of Art degrees(Statistics and Economics) 
 
 My resume is attached. Feel free to contact me if you think I'm a good fit.
 
-Thanks a lot.
+Thanks for taking time reading this.
 
 Scarlett
