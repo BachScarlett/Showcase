@@ -1,0 +1,301 @@
+id,hospital_id,last_name,first_name,email,specialty,rating
+1,1,ENKESHAFI,ARDALAN,naronsohn0@about.me,Internal Medicine,6
+2,2,CIBULL,THOMAS,hannand1@icio.us,Pathology,8
+3,3,KHALIL,RASHID,hjanodet2@washingtonpost.com,Anesthesiology,8
+4,4,GIRARDI,DAVID,agoucher3@fda.gov,Family Practice,8
+5,5,VELOTTA,JENNIFER,lorrey4@instagram.com,Obstetrics & Gynecology,8
+6,6,ROTHCHILD,KEVIN,tboote5@1und1.de,General Surgery,3
+7,7,WEIGAND,FREDERICK,kwareham6@vimeo.com,Family Practice,1
+8,8,SEMONCHE,AMANDA,lthackwray7@cbsnews.com,Internal Medicine,3
+9,9,KIM,DAE,nshakspeare8@arstechnica.com,Urology,5
+10,10,BENHARASH,PEYMAN,dsnewin9@gmpg.org,Cardiac Surgery,10
+11,11,GATTON,ZACHARY,sgreenhalfa@bizjournals.com,Anesthesiology,9
+12,12,ZUMWALT,JULIETTE,sthurnerb@blog.com,Physician Assistant,10
+13,13,DEITLE,JAMES,sbraitlingc@4shared.com,Physician Assistant,1
+14,14,KOCHANEK,MICHELLE,eeyed@kickstarter.com,Physical Therapist in Private Practice,4
+15,15,LOHANO,JAIVANTI,lennalse@zdnet.com,Family Practice,3
+16,16,STELLINGWORTH,MARK,bduguef@epa.gov,Internal Medicine,8
+17,17,NICHOLS,LAWRENCE,vcoursong@jiathis.com,Dermatology,3
+18,18,MILLER,KATHLEEN,vshillidayh@patch.com,Certified Registered Nurse Anesthetist (CRNA),10
+19,19,NICASTRO,JON,acorringhami@pcworld.com,Physical Therapist in Private Practice,7
+20,20,DAY,RONNIE,hbrosinij@mediafire.com,Physical Therapist in Private Practice,3
+21,21,CARAGOL,JENNIFER,fbrucek@diigo.com,Family Practice,1
+22,22,STEVENS,CHARLES,pgillbardl@yelp.com,Anesthesiology,5
+23,23,KANTER,DAVID,atabordm@gmpg.org,Physical Medicine and Rehabilitation,7
+24,24,WOLSKI,MICHAL,joshean@buzzfeed.com,Radiation Oncology,5
+25,25,TRAN,MARY,awaitingo@qq.com,Physician Assistant,2
+26,26,TRIVEDI,VINOD,dvanichkinp@bloglines.com,Infectious Disease,9
+27,27,JONES,JACLYN,vilsonq@weebly.com,Orthopedic Surgery,9
+28,28,TAVORA,SARA,tguyonnetr@com.com,Licensed Clinical Social Worker,10
+29,29,LUECHINGER,INGE,rmaros@discovery.com,Certified Clinical Nurse Specialist,9
+30,30,SAHA,LUCILLE,ysouthertont@time.com,Family Practice,2
+31,31,GOAD,KAREN,rdelaharpeu@apache.org,Physical Therapist in Private Practice,10
+32,32,SRINIVASAN,LAKSHMI,ibogartv@state.gov,Endocrinology,1
+33,33,GOTESMAN,ALEXANDER,nburrassw@sohu.com,Urology,3
+34,34,DEVENS,CHRISTOPHER,bbartolomeazzix@bizjournals.com,Chiropractic,10
+35,35,OWENS,JUSTIN,ahengoedy@blogger.com,Diagnostic Radiology,8
+36,36,HOPKINS,PATRICIA,aligertonz@microsoft.com,Rheumatology,7
+37,37,SHRESTHA,SALONA,hchapelhow10@yahoo.com,Internal Medicine,4
+38,38,MINNER,MEGAN,ccaldes11@imgur.com,Chiropractic,7
+39,39,DEGRAFF,THOMAS,rmapples12@reference.com,General Practice,1
+40,40,KADIYALA,SAMATHA,cmccray13@bandcamp.com,Obstetrics & Gynecology,9
+41,41,BRADT,CARIE,nhowsego14@forbes.com,Physician Assistant,9
+42,42,LOCKMAN,BRETT,dhull15@icq.com,Physical Medicine and Rehabilitation,3
+43,43,HARTMAN,MATTHEW,scancelier16@163.com,Diagnostic Radiology,1
+44,44,GRAZIANO,VINCENT,sbjorkan17@csmonitor.com,Diagnostic Radiology,9
+45,45,IGLESIAS,NAYVIS,nfinlry18@skype.com,Family Practice,7
+46,46,CHOUDHARY,SAHER,nbrougham19@java.com,Neurology,5
+47,47,HAMMAN,DANIEL,abenasik1a@ezinearticles.com,Orthopedic Surgery,1
+48,48,GALUSKA,MICHAEL,dbroadfoot1b@walmart.com,Emergency Medicine,9
+49,49,SWINEHART,JOSEPH,bmcgiveen1c@aol.com,Physical Therapist in Private Practice,5
+50,50,GILL,ANITA,hnyland1d@columbia.edu,Neurology,5
+51,51,VORA,AVANI,ajenton1e@clickbank.net,Physical Therapist in Private Practice,5
+52,52,MORRISON,LAURA,dstocken1f@jigsy.com,Dermatology,8
+53,53,PINKERTON,KENNETH,akempshall1g@irs.gov,Physical Therapist in Private Practice,2
+54,54,PAKKIVENKATA,UMA,mborchardt1h@wikipedia.org,Nephrology,10
+55,55,SANTIAGO,CYNTHIA,msamuel1i@themeforest.net,Family Practice,1
+56,56,FARAHANI,CYRUS,psaxby1j@virginia.edu,Emergency Medicine,1
+57,57,PLETIN,TANYA,gmathie1k@gnu.org,Physician Assistant,8
+58,58,MORGAN,KATHLEEN,rcoules1l@ucla.edu,Physician Assistant,6
+59,59,PHILBRICK,NATALIE,lchudleigh1m@imageshack.us,Internal Medicine,7
+60,60,NORDAHL,GWEN,pfranzel1n@naver.com,Physician Assistant,2
+61,61,RUITER,TODD,ccowling1o@opera.com,Hand Surgery,6
+62,62,CABANELLAS,JENNINE,kdaburn1p@sitemeter.com,Ophthalmology,3
+63,63,OSETSKY,JOANNE,oroiz1q@redcross.org,Nurse Practitioner,6
+64,64,RIGGLE,ERIN,tfazackerley1r@facebook.com,Pulmonary Disease,3
+65,65,COULSON,ANDREW,rpashenkov1s@disqus.com,Chiropractic,2
+66,66,STAGGERS,MISTI,gchaperlin1t@gnu.org,Nurse Practitioner,6
+67,67,FETTMAN,NICHOLAS,kcrocumbe1u@histats.com,Otolaryngology,1
+68,68,PACE,STANLEY,pelmhurst1v@about.com,Pathology,3
+69,69,SMITH,ADAM,jharmon1w@google.ru,Plastic and Reconstructive Surgery,9
+70,70,PADRO-GUZMAN,JESUEL,bharfoot1x@xinhuanet.com,Physical Medicine and Rehabilitation,5
+71,71,BEAUMONT,LAURA,ldudson1y@hud.gov,Psychologist Clinical,2
+72,72,OKETOKUN,ADEFOLAJU,yhunnam1z@ycombinator.com,General Practice,1
+73,73,DOUGLAS-LEWIS,YVETTE,lshory20@uiuc.edu,Family Practice,3
+74,74,WALNOHA,WADE,mfiander21@amazonaws.com,Physician Assistant,10
+75,75,PALASZEWSKI,DAWN,jmcasparan22@imageshack.us,Obstetrics & Gynecology,5
+76,76,LEASURE,EMILY,bhallor23@etsy.com,Internal Medicine,8
+77,77,AL-SAAB,SAAD,fhillburn24@blogspot.com,Cardiovascular Disease (Cardiology),1
+78,78,DURHAM,BENJAMIN,mforgie25@newsvine.com,Physician Assistant,9
+79,79,GAMBOA,STEPHEN,xreap26@toplist.cz,Emergency Medicine,4
+80,80,QUEZADA JOAQUIN,NESTOR,channam27@goo.gl,Dental,9
+81,81,MILLER,LAURA,elubeck28@apple.com,Neurology,7
+82,82,BENEZRA,KAREN,cdenk29@un.org,Osteopathic Manipulative Medicine,10
+83,83,JEGEDE,OLUGBEMIGA,jbalentyne2a@e-recht24.de,Internal Medicine,8
+84,84,QUINONEZ,ALNER,ariolfi2b@a8.net,Family Practice,4
+85,85,MAREEDU,JYOTSNA,tformigli2c@edublogs.org,Internal Medicine,3
+86,86,NASAJPOUR,HOSSEIN,lgatrill2d@cam.ac.uk,Plastic and Reconstructive Surgery,2
+87,87,RULE,CINDI,mdunnett2e@imgur.com,Nurse Practitioner,5
+88,88,HASAN,SABA,shandy2f@npr.org,Dental,5
+89,89,HOMAN,ZENA,bdixon2g@shop-pro.jp,Obstetrics & Gynecology,3
+90,90,GVOZDJAN,DRAGOSLAV,hbastiman2h@tmall.com,Psychiatry,9
+91,91,GAMBACORTA,KATHERINE,rreddel2i@usgs.gov,Anesthesiology,9
+92,92,MENA,BRIDGIT,bwoodrup2j@accuweather.com,Physician Assistant,8
+93,93,FARRAR,DAVID,mpashbee2k@gov.uk,Physician Assistant,4
+94,94,GUPTA,MAMTA,pskeech2l@wunderground.com,Internal Medicine,6
+95,95,FEREIDOUNI,SAM,bmalby2m@comcast.net,Family Practice,9
+96,96,HOWARD,TIFFANY,fjzak2n@spotify.com,Physical Medicine and Rehabilitation,3
+97,97,DANCIU,SORIN,lgiorgio2o@pcworld.com,Cardiovascular Disease (Cardiology),2
+98,98,YAMANI,HUSSEIN,mjermin2p@java.com,Cardiovascular Disease (Cardiology),8
+99,99,WILLIAMS,JENNIFER,cahearne2q@github.com,Physician Assistant,6
+100,100,GINN,MICHAELA,dleatherbarrow2r@biblegateway.com,Internal Medicine,7
+101,1,UZOWULU,OBINNA,lberrigan2s@instagram.com,Family Practice,7
+102,2,HARLOW,MICHAEL,vplover2t@google.pl,Psychiatry,3
+103,3,MONTEMURNO,TINA,flathe2u@parallels.com,Anesthesiology,4
+104,4,OZUNA,EDUARDO,bceeley2v@cam.ac.uk,Anesthesiology,10
+105,5,ABDOW,KIMBERLY,howens2w@time.com,Nurse Practitioner,9
+106,6,MOGHISSI,ETIE,gcoombes2x@telegraph.co.uk,Endocrinology,8
+107,7,TUROCK,MELANIE,dfargie2y@xrea.com,Emergency Medicine,2
+108,8,DEPPEN,KRISANNA,memblem2z@clickbank.net,Family Practice,6
+109,9,SMERKA,KENNETH,bbradder30@cargocollective.com,Physician Assistant,1
+110,10,GUPTA,ARUSHA,soffner31@ucsd.edu,Ophthalmology,8
+111,11,SOWAH,LEONARD,mklimecki32@ask.com,Internal Medicine,5
+112,12,TAVAN,EMMANUEL,rcastana33@archive.org,Dental,5
+113,13,KRAMER,OLGA,lleal34@gov.uk,Physician Assistant,9
+114,14,BERNAL,JUAN,ieasseby35@tinypic.com,Interventional Cardiology,8
+115,15,HOUSE,ROBIN,jmacrory36@amazon.co.jp,Nurse Practitioner,3
+116,16,EASTERLIN,MARIE,amaclise37@about.me,Obstetrics & Gynecology,6
+117,17,LARSON,MATTHEW,smcguggy38@latimes.com,Anesthesiology,10
+118,18,HERNANDEZ,PEDRO,tgarrick39@nbcnews.com,General Surgery,8
+119,19,MENDEZ,DANIEL,waughtie3a@a8.net,Diagnostic Radiology,5
+120,20,SABODASH,VALERIY,aville3b@posterous.com,Neurology,4
+121,21,GINN,ERIC,tberrow3c@amazonaws.com,Family Practice,6
+122,22,CHIRUMAMILLA,RADHA,twaddie3d@google.fr,Internal Medicine,8
+123,23,LEE,ALISIA,elupton3e@narod.ru,Physician Assistant,10
+124,24,ZIMMER,CATHERINE,adudmarsh3f@java.com,Physical Therapist in Private Practice,7
+125,25,ZABIEREK,JENNILLE,ddonan3g@rediff.com,Physical Therapist in Private Practice,1
+126,26,MOHLER,TROY,cnutbeem3h@wsj.com,Family Practice,3
+127,27,SPRAGG,CHERYL,adesporte3i@tuttocitta.it,Physician Assistant,9
+128,28,MILLER,ADRIANNE,stulleth3j@wikimedia.org,Dental,2
+129,29,SOLBERG-SHANKLE,HEIDI,tedelston3k@wordpress.org,Emergency Medicine,10
+130,30,BREWER,DEBRA,dsalliere3l@buzzfeed.com,Audiologist,3
+131,31,KODUMURI,VAMSI,gsnow3m@ycombinator.com,Cardiovascular Disease (Cardiology),9
+132,32,CADAN,ALEX,bstandrin3n@t.co,Physician Assistant,9
+133,33,SINGLETARY,ROBERT,kleimster3o@ehow.com,Emergency Medicine,7
+134,34,WOODS-GRIMM,SERENA,asommerscales3p@statcounter.com,Family Practice,4
+135,35,SHULL,DANIEL,dgeldart3q@mozilla.com,Chiropractic,3
+136,36,NELSON,HOLLY,jrubel3r@sfgate.com,Anesthesiology,2
+137,37,VOLK,JILL,hnorrey3s@t.co,Emergency Medicine,8
+138,38,DUNN,GRACE,rlezemere3t@slideshare.net,Family Practice,10
+139,39,BANNA,MOUSTAFA,cdrinkale3u@github.io,Cardiovascular Disease (Cardiology),10
+140,40,TEAGUE,MICHELLE,lwornum3v@msu.edu,Physical Therapist in Private Practice,4
+141,41,GELMANN,MARY COLEEN,bbramwich3w@prnewswire.com,Certified Registered Nurse Anesthetist (CRNA),2
+142,42,VANDONGEN,DANIQUE,lhaslocke3x@parallels.com,Physical Medicine and Rehabilitation,6
+143,43,ALBERT,WILLIAM,ceymer3y@homestead.com,Dental,4
+144,44,EGAR,JOHN,cjannequin3z@ibm.com,Internal Medicine,10
+145,45,USOROV,ALEKSANDR,gstanaway40@unc.edu,Nephrology,5
+146,46,ANDERSON,ROBERT,sgadney41@xinhuanet.com,Certified Registered Nurse Anesthetist (CRNA),6
+147,47,HUDAK,DANIEL,lbauldrey42@who.int,General Surgery,2
+148,48,SMITH,WILLIAM,gcorn43@dedecms.com,Anesthesiology,9
+149,49,STONE,JENNIFER,gswinnerton44@walmart.com,Family Practice,1
+150,50,SHAYA,WISSAM,ghasty45@redcross.org,Family Practice,5
+151,51,BUIST,SUSAN,jbatter46@nytimes.com,Licensed Clinical Social Worker,10
+152,52,RAMASWAMY,RAVISHANKAR,dholliar47@jiathis.com,Geriatric Medicine,5
+153,53,BURGART,JENNIFER,zhurleston48@over-blog.com,Obstetrics & Gynecology,6
+154,54,STEWART,RICHARD,hdavidy49@nydailynews.com,Emergency Medicine,6
+155,55,CHOW,LING,dackland4a@webeden.co.uk,Internal Medicine,5
+156,56,DEFILIPPIS,NICHOLAS,lminton4b@nature.com,Anesthesiology,6
+157,57,PERRI,ANTHONY,hmuddimer4c@bloomberg.com,Dermatology,10
+158,58,BRINDLEY,MACE,fupwood4d@alibaba.com,Dental,10
+159,59,SHAD,FARIHA,pbasezzi4e@bravesites.com,Internal Medicine,10
+160,60,CRONIN,JERI,eraftery4f@cdbaby.com,Nurse Practitioner,8
+161,61,BIERDEN,REBECCA,mbulger4g@samsung.com,Physical Medicine and Rehabilitation,3
+162,62,KUEHL,JAMES,rdunsire4h@surveymonkey.com,Chiropractic,7
+163,63,COMBS,CRAIG,mheustice4i@time.com,Anesthesiology,6
+164,64,INSANA,ANTONINO,srich4j@surveymonkey.com,Emergency Medicine,9
+165,65,HATCHETTE,ANDREA,qackerman4k@163.com,Urology,10
+166,66,FREDERICKS,PETER,ahague4l@mapy.cz,Orthopedic Surgery,1
+167,67,KOSHY,ANOOPA,acalliss4m@java.com,Endocrinology,6
+168,68,ARTHUR,KRISTINE,dabley4n@deliciousdays.com,Internal Medicine,1
+169,69,LEI,LAURA,iokelly4o@liveinternet.ru,Anesthesiology,7
+170,70,STANDHART,PHILIP,jbrunelleschi4p@blinklist.com,Dental,2
+171,71,BAJAJ,BHAVANDEEP,celleton4q@weebly.com,Internal Medicine,8
+172,72,JIMENEZ,LINCOLN,dchillcot4r@ucsd.edu,Neurosurgery,1
+173,73,AMIN,KHALID,jmyton4s@icio.us,Pathology,7
+174,74,MCCOPPIN,HOLLY,jcleary4t@nsw.gov.au,Dermatology,4
+175,75,HOLLAND,CHRISTOPHER,tdutnall4u@loc.gov,Physician Assistant,8
+176,76,CHANG,EMILY,vtuffey4v@wikia.com,Obstetrics & Gynecology,6
+177,77,RICHARDSON,GAA,jgallandre4w@boston.com,Gastroenterology,6
+178,78,RAY,ALAKA,dbassam4x@gnu.org,Internal Medicine,1
+179,79,BLOMEIER,HERMAN,dpeel4y@wisc.edu,Endocrinology,5
+180,80,SNIADANKO,MARK,pdabling4z@google.pl,Emergency Medicine,3
+181,81,MORRIS,MELANIE,panthonsen50@craigslist.org,General Surgery,5
+182,82,SPIRA,ETAN,nbroxis51@nydailynews.com,Dental,8
+183,83,CHONG,NYEN,sprahl52@sciencedaily.com,Thoracic Surgery,8
+184,84,HURLEY,PATRICK,bwharmby53@indiegogo.com,Diagnostic Radiology,8
+185,85,JUNG,EDWARD,fsey54@dailymotion.com,Radiation Oncology,5
+186,86,KALLSNICK,AARON,tneedham55@blog.com,Anesthesiology,8
+187,87,DEEB,LILIANE,rcarvell56@prlog.org,Gastroenterology,8
+188,88,SCARFO,KEITH-AUSTIN,jtreamayne57@hatena.ne.jp,Anesthesiology,2
+189,89,CUDZILO,COREY,edemead58@ameblo.jp,Pulmonary Disease,2
+190,90,NWAOGWUGWU,UZOAMAKA,swaeland59@acquirethisname.com,Internal Medicine,7
+191,91,NUNES,WENDY,vsegot5a@sogou.com,Dental,4
+192,92,REUTTER,MARK,mvannoort5b@tinypic.com,Emergency Medicine,1
+193,93,GAMBLE,DARCESEAN,rizkovici5c@aboutads.info,Physician Assistant,10
+194,94,SPADER,HEATHER,mkellart5d@bluehost.com,Neurosurgery,5
+195,95,CLAIR,CHARLES,kdriscoll5e@printfriendly.com,Family Practice,9
+196,96,JONES,RYAN,jrudinger5f@sun.com,Chiropractic,9
+197,97,MALLEK,GREGORY,lchristian5g@kickstarter.com,Obstetrics & Gynecology,1
+198,98,GARVEY,MATTHEW,ccastanho5h@boston.com,Anesthesiology,10
+199,99,BOOTS,CARRIE,bpoad5i@sciencedirect.com,Nurse Practitioner,9
+200,100,PATEL,VIRAL,jaxon5j@drupal.org,Family Practice,2
+201,1,SOLIMAN,MAGED,kmaryon5k@macromedia.com,Psychiatry,1
+202,2,PICEL,ANDREW,ahelgass5l@dell.com,Diagnostic Radiology,3
+203,3,MITRA,RANJANA,itucknott5m@webnode.com,Internal Medicine,2
+204,4,MODRYKAMIEN,ARIEL,stuxwell5n@hibu.com,Critical Care (Intensivists),5
+205,5,GILMORE,CARL,tferronel5o@stumbleupon.com,Orthopedic Surgery,3
+206,6,RODGERS,SHAUN,tmacgray5p@sun.com,Neurosurgery,6
+207,7,LIPTAN,GINEVRA,cscrogges5q@redcross.org,Pain Management,8
+208,8,LU,DUNYUE,csheerman5r@spotify.com,Psychiatry,1
+209,9,MAZLOOM,NARGES,masker5s@vinaora.com,Otolaryngology,2
+210,10,DORON,ORLY,cvaughan5t@com.com,Licensed Clinical Social Worker,2
+211,11,SHAW,SARAH,mdamrel5u@people.com.cn,Cardiovascular Disease (Cardiology),9
+212,12,PHAN,TERESA,bepton5v@eepurl.com,Family Practice,8
+213,13,JOHN,JAYASHREE,phowe5w@webmd.com,Psychiatry,8
+214,14,LOPEZ,NICETO,tmatej5x@goo.gl,Internal Medicine,6
+215,15,PATEL-RAVAL,PINECCA,lwemes5y@mit.edu,Podiatry,5
+216,16,LOO,DEBORAH,cslavin5z@imdb.com,Anesthesiology,5
+217,17,RUSSELL,MICHAEL,eshepherdson60@hhs.gov,Physical Therapist in Private Practice,10
+218,18,DAJANI,ASMA,jlamplugh61@odnoklassniki.ru,Family Practice,5
+219,19,CORREA,ZANA,rlogesdale62@google.it,Nurse Practitioner,5
+220,20,SHEEHAN,DAVID,hgladwish63@skype.com,Diagnostic Radiology,1
+221,21,DAVIDSON,ERIC,mfryman64@hugedomains.com,Anesthesiology,5
+222,22,GRABENSTEIN,WILLIAM,jhammelberg65@so-net.ne.jp,Family Practice,8
+223,23,STRAND,DANIEL,nbut66@vkontakte.ru,Gastroenterology,5
+224,24,OSTASZEWSKI,MARY,sbisseker67@amazon.de,Nurse Practitioner,4
+225,25,PEROCK,PEGGY,klayland68@google.com,Physical Therapist in Private Practice,9
+226,26,SARTI,JUAN,cbirley69@theatlantic.com,Anesthesiology,6
+227,27,OSLEBER,MICHAEL,mkarpets6a@vinaora.com,Dermatology,7
+228,28,RATCHFORD,ERIK,afreckingham6b@blogspot.com,Urology,7
+229,29,KAN,JACK,sepps6c@google.com.br,Anesthesiology,6
+230,30,BLOCK,JOANNE,mstleger6d@miitbeian.gov.cn,Dental,3
+231,31,BOEHMLER,JESSICA,amunt6e@mail.ru,Pulmonary Disease,8
+232,32,CIOFFI,GEORGE,balway6f@nifty.com,Ophthalmology,1
+233,33,LADANYE,KAREN,cupton6g@de.vu,Psychologist Clinical,5
+234,34,HAGGERTY,TREAH,oplease6h@google.cn,Family Practice,3
+235,35,BYRNE,EMILY,amanterfield6i@unesco.org,Nurse Practitioner,8
+236,36,WOSCHKOLUP,KATHLEEN,gbarde6j@washington.edu,Neurology,2
+237,37,QUINLAN,MAUREEN,lkilmurry6k@t.co,Podiatry,10
+238,38,SPINALE,RICHARD,aguyon6l@whitehouse.gov,General Surgery,4
+239,39,KRETCHMAN,ERICA,hjura6m@prlog.org,Endocrinology,10
+240,40,WANG,ROBERTA,cbuddles6n@nih.gov,Physical Medicine and Rehabilitation,8
+241,41,FIELDS,JUSTIN,crome6o@rakuten.co.jp,Internal Medicine,10
+242,42,PHUNG,ANDY,srosingdall6p@mashable.com,Dental,6
+243,43,BAILEY,NATHANAEL,bludman6q@furl.net,Pathology,2
+244,44,BURMAN,ROBERT,ltuer6r@nifty.com,Diagnostic Radiology,6
+245,45,SAWYER,KEVIN,zhubach6s@huffingtonpost.com,Diagnostic Radiology,4
+246,46,FAKIH,MONA,tclineck6t@tmall.com,Obstetrics & Gynecology,5
+247,47,BAHL,AMIT,rhellin6u@examiner.com,Emergency Medicine,4
+248,48,OTTO,ROBERT,jleupoldt6v@cbc.ca,Orthopedic Surgery,2
+249,49,HERSHBERGER,JENNIFER,crogliero6w@go.com,Ophthalmology,10
+250,50,WEISS,DANIEL,cpoint6x@bigcartel.com,Physician Assistant,5
+251,51,OLSEN,ALEX,bjohantges6y@webeden.co.uk,General Surgery,6
+252,52,JACKSON,JEFFREY,nmiko6z@samsung.com,Optometry,6
+253,53,PITTMAN,LARRY,bsulter70@mtv.com,Podiatry,4
+254,54,MEHRAZIN,REZA,chindes71@cisco.com,Urology,6
+255,55,MACKENNEY,KAREN,csolway72@ucla.edu,Nurse Practitioner,2
+256,56,BELL,LINDA,mtodarello73@cdbaby.com,Nurse Practitioner,1
+257,57,KHAJA,ASLAM,htarpey74@people.com.cn,Neurology,5
+258,58,BARAK,RAKESH,fspearing75@mtv.com,Diagnostic Radiology,10
+259,59,KARASEK,JENNIFER,sluffman76@google.nl,Physical Therapist in Private Practice,10
+260,60,HICKS,KRISTIN,adendle77@thetimes.co.uk,Psychiatry,4
+261,61,COMMISKEY,STEPHEN,mgrigg78@purevolume.com,Anesthesiology,3
+262,62,JINDAL,ANKUR,hneesham79@freewebs.com,Internal Medicine,3
+263,63,WHARTON,JOSHUA,bhowsan7a@army.mil,Dermatology,1
+264,64,BERGER,JOHN,krandleson7b@dmoz.org,Pulmonary Disease,4
+265,65,YUZEFOVICH,MICHAEL,dellen7c@comsenz.com,Obstetrics & Gynecology,5
+266,66,DREHER,JENNIFER,spurselow7d@blogspot.com,Nurse Practitioner,8
+267,67,EIDAHL,JASON,ajenk7e@g.co,Emergency Medicine,4
+268,68,CHHABRA,DARSHIKA,wcronshaw7f@histats.com,Nephrology,9
+269,69,EVERT,JESSICA,eleisman7g@dell.com,Family Practice,7
+270,70,BAUER,JENNY,slinck7h@ameblo.jp,Nurse Practitioner,1
+271,71,COMMONS,BRADFORD,mskeen7i@hhs.gov,Emergency Medicine,2
+272,72,BEAUCHAMP BRUNO,MAYRA,bjobbins7j@istockphoto.com,Dermatology,6
+273,73,SWANEY,ROBERT,scaghy7k@narod.ru,Hematology-Oncology,4
+274,74,BRADLEY,MICHELLE,mgimblett7l@intel.com,Family Practice,7
+275,75,FISH,BRANDON,fsugarman7m@gov.uk,Optometry,6
+276,76,DHEVAN,VIJIAN,smegarrell7n@hugedomains.com,General Surgery,1
+277,77,CANETTA,PIETRO,smorphew7o@jalbum.net,Nephrology,1
+278,78,PARNHAM,RYAN,djiggle7p@youtu.be,Nurse Practitioner,3
+279,79,MONTEAU,LANCE,ajobbings7q@ucla.edu,Internal Medicine,9
+280,80,CHANG,CHUN,mdolohunty7r@paypal.com,Emergency Medicine,2
+281,81,SAWUSCH,MARK,tmeadmore7s@cbslocal.com,Ophthalmology,4
+282,82,FISHMAN,MICHAEL,cmaleham7t@nymag.com,Diagnostic Radiology,9
+283,83,DEHQANZADA,ZIA,odohrmann7u@ca.gov,General Surgery,3
+284,84,BLUME,DEBORAH,vurquhart7v@amazon.co.uk,Physician Assistant,3
+285,85,BLACK,ROBERT,jpococke7w@weebly.com,Anesthesiology,4
+286,86,TAN- PEDRES,MAUREEN,bfishenden7x@nydailynews.com,Internal Medicine,1
+287,87,ROGERS,RYAN,lgellion7y@indiatimes.com,Ophthalmology,3
+288,88,MADHAVAN,SETHU,bmatyushonok7z@google.nl,Nephrology,6
+289,89,SABAPATHY,THIRUPPATHY,hpetrushkevich80@linkedin.com,Anesthesiology,8
+290,90,STUMPF,MICHAEL,nscintsbury81@house.gov,General Surgery,8
+291,91,FELTON,JASON,mcalderon82@state.gov,Neurosurgery,2
+292,92,FENG,KATHY,jstanlick83@discuz.net,Audiologist,7
+293,93,MOTARJEMI,RAMIN,cwalkington84@google.fr,Internal Medicine,2
+294,94,MCSWEENEY,ALEXANDRIA,amacdearmont85@ucoz.com,Physical Therapist in Private Practice,1
+295,95,HARTSHORN,HEATHER,mveysey86@economist.com,General Surgery,5
+296,96,CASH,ADAM,ahoyle87@histats.com,Plastic and Reconstructive Surgery,10
+297,97,MUTHUKRISHNAN,VIJAI,bspratley88@tamu.edu,Family Practice,10
+298,98,SNYDER,JOHN,lfawdrie89@diigo.com,Optometry,6
+299,99,LAMB,PATRICIA,atomek8a@upenn.edu,Nurse Practitioner,7
+300,100,SHARMA,CORDELIA,tenstone8b@umich.edu,Internal Medicine,3

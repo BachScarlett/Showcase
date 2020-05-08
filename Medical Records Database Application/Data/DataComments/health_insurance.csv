@@ -1,0 +1,222 @@
+id,type,company
+1,HMO,Aetna Health Inc.
+2,A&H,Aetna Health Insurance Company of New York
+3,MCH,Allegany-Cattaraugus Schools Medical Health Plan
+4,HMO,"Alphacare of New York, Inc."
+5,A&H,American Independent Network Insurance Company of New York
+6,HMO,"Atlantis Health Plan, Inc."
+7,HMO,Capital District Physicians Health Plan
+8,A&H,"CareConnect Insurance Company, Inc. (formerly North Shore LIJ CareConnect Insurance Company)"
+9,A&H,Care Improvement Plus of South Central Insurance Company
+10,A&H,Care Improvement Plus of TX Ins Co
+11,HMO,"Catholic Special Needs Plan, LLC"
+12,MCH,Catskill Area Schools Employees Benefit Plan
+13,MCH,Cayuga-Onondaga Area School Employees' Healthcare Plan
+14,A43,"CDPHP Universal Benefits, Inc."
+15,MCH,Chautauqua County School Districts' Medical Health Plan
+16,A&H,Commercial Travelers Mutual Insurance Company
+17,A&H,"Crystal Run Health Insurance Company, Inc."
+18,HMO,"Crystal Run Health Plan, LLC"
+19,HMO,Cuatro LLC
+20,A&H,Delta Dental Insurance Company
+21,A43,"Delta Dental of New York, Inc."
+22,A43,"Dentcare Delivery Systems, Inc."
+23,A43,"Eastern Vision Service Plan, Inc."
+24,HMO,"Elderplan, Inc."
+25,A&H,"Empire HealthChoice Assurance, Inc."
+26,HMO,"Empire HealthChoice HMO, Inc."
+27,A&H,Envision Insurance Company
+28,A43,"Excellus Health Plan, Inc."
+29,A&H,"Freelancers Insurance Company, Inc."
+30,HMO,Fresenius Health Plans of New York Inc
+31,MCH,Greater Tompkins County Municipal Health Insurance Consortium
+32,A43,Group Health Incorporated
+33,HMO,"Healthfirst Health Plan, Inc. (formerly Managed Health, Inc.)"
+34,A&H,"Healthfirst Insurance Company, Inc."
+35,A&H,"Health Insurance Company of America, Inc."
+36,A43,Health Insurance Plan of Greater New York
+37,A&H,"Health Net Insurance of New York, Inc."
+38,A43,HealthNow New York Inc.
+39,A&H,Healthplex Insurance Company
+40,A&H,"HealthSpring Life & Health Insurance Company, Inc."
+41,A&H,HIP Insurance Company of New York
+42,HMO,"Humana Health Company of New York, Inc."
+43,A&H,Humana Insurance Company of New York
+44,HMO,"Independent Health Association, Inc."
+45,A43,Independent Health Benefits Corporation
+46,MCH,Jefferson-Lewis et. al. School Employees Healthcare Plan
+47,A&H,MedAmerica Insurance Company of New York
+48,A&H,Medco Containment Insurance Company of New York
+49,A&H,Mutual of Omaha Insurance Company
+50,A&H,MVP Health Insurance Company
+51,HMO,"MVP Health Plan, Inc."
+52,A43,MVP Health Services Corp.
+53,A&H,Northwestern Long Term Care Insurance Company
+54,MCH,Orange-Ulster School Districts Plan
+55,A&H,Oscar Insurance Corporation
+56,A&H,"Oxford Health Insurance, Inc."
+57,HMO,"Oxford Health Plans (NY), Inc."
+58,A&H,Physicians Mutual Insurance Company
+59,A43,"Pupil Benefits Plan, Inc."
+60,MCH,Putnam/Northern Westchester Health Benefits Consortium
+61,HMO,"Quality Health Plans of New York, Inc."
+62,A&H,Renaissance Health Insurance Company of New York
+63,HMO,"Senior Whole Health of New York, Inc."
+64,A&H,"Sierra Health and Life Insurance Co, Inc."
+65,A&H,SilverScript Insurance Company
+66,A&H,Solstice Health Insurance Company
+67,MCH,State-Wide Schools Cooperative Health Plan
+68,MCH,Steuben Area School Employees' Benefit Plan
+69,MCH,St. Lawrence-Lewis Counties School Districts Employees Medical Plan
+70,HMO,"Touchstone Health HMO, Inc."
+71,A&H,Trustmark Insurance Company
+72,A&H,Tufts Insurance Company
+73,A&H,United Concordia Insurance Company of New York
+74,A&H,UnitedHealthcare Insurance Company of New York
+75,HMO,"Unitedhealthcare of New York, Inc."
+76,A&H,"WellCare Health Insurance of New York, Inc."
+77,A&H,"WellCare Prescription Insurance, Inc."
+78,AH,Accendo Insurance Company
+79,HMO,Aetna Health Inc.
+80,AH,Aetna Health Insurance Company of New York
+81,MCH,Allegany-Cattaraugus Schools Medical Health Plan
+82,HMO,"Alphacare of New York, Inc."
+83,AH,American Independent Network Insurance Company of New York
+84,HMO,"Atlantis Health Plan, Inc."
+85,HMO,Capital District Physicians Health Plan
+86,AH,Care Improvement Plus of South Central Insurance Company
+87,AH,Care Improvement Plus of TX Ins Co
+88,HMO,"Catholic Special Needs Plan, LLC"
+89,MCH,Catskill Area Schools Employees Benefit Plan
+90,MCH,Cayuga-Onondaga Area School Employees' Healthcare Plan
+91,A43,"CDPHP Universal Benefits, Inc."
+92,MCH,Chautauqua County School Districts' Medical Health Plan
+93,AH,Commercial Travelers Mutual Insurance Company
+94,AH,"Crystal Run Health Insurance Company, Inc."
+95,HMO,"Crystal Run Health Plan, LLC"
+96,HMO,Cuatro LLC
+97,AH,Delta Dental Insurance Company
+98,A43,"Delta Dental of New York, Inc."
+99,A43,"Dentcare Delivery Systems, Inc."
+100,A43,"Eastern Vision Service Plan, Inc."
+101,HMO,"Elderplan, Inc."
+102,AH,"Empire HealthChoice Assurance, Inc."
+103,HMO,"Empire HealthChoice HMO, Inc."
+104,AH,Envision Insurance Company
+105,A43,"Excellus Health Plan, Inc."
+106,AH,"Freelancers Insurance Company, Inc."
+107,MCH,Greater Tompkins County Municipal Health Insurance Consortium
+108,A43,Group Health Incorporated
+109,HMO,"Healthfirst Health Plan, Inc. (formerly Managed Health, Inc.)"
+110,AH,"Health Insurance Company of America, Inc."
+111,A43,Health Insurance Plan of Greater New York
+112,AH,"Health Net Insurance of New York, Inc."
+113,A43,HealthNow New York Inc.
+114,AH,Healthplex Insurance Company
+115,AH,"HealthSpring Life & Health Insurance Company, Inc."
+116,AH,HIP Insurance Company of New York
+117,HMO,"Humana Health Company of New York, Inc."
+118,AH,Humana Insurance Company of New York
+119,HMO,"Independent Health Association, Inc."
+120,A43,Independent Health Benefits Corporation
+121,MCH,Jefferson-Lewis et. al. School Employees Healthcare Plan
+122,AH,MedAmerica Insurance Company of New York
+123,AH,Medco Containment Insurance Company of New York
+124,AH,Mutual of Omaha Insurance Company
+125,AH,MVP Health Insurance Company
+126,HMO,"MVP Health Plan, Inc."
+127,A43,MVP Health Services Corp.
+128,AH,North Shore LIJ CareConnect Insurance Company
+129,AH,Northwestern Long Term Care Insurance Company
+130,MCH,Orange-Ulster School Districts Plan
+131,AH,Oscar Insurance Corporation
+132,AH,"Oxford Health Insurance, Inc."
+133,HMO,"Oxford Health Plans (NY), Inc."
+134,AH,Physicians Mutual Insurance Company
+135,A43,"Pupil Benefits Plan, Inc."
+136,MCH,Putnam/Northern Westchester Health Benefits Consortium
+137,HMO,"Quality Health Plans of New York, Inc."
+138,AH,Renaissance Health Insurance Company of New York
+139,AH,"Security Health Insurance Company of America, New York, Inc."
+140,HMO,"Senior Whole Health of New York, Inc."
+141,AH,"Sierra Health and Life Insurance Co, Inc."
+142,AH,SilverScript Insurance Company
+143,AH,Solstice Health Insurance Company
+144,MCH,State-Wide Schools Cooperative Health Plan
+145,MCH,Steuben Area School Employees' Benefit Plan
+146,MCH,St. Lawrence-Lewis Counties School Districts Employees Medical Plan
+147,HMO,"Touchstone Health HMO, Inc."
+148,AH,Trustmark Insurance Company
+149,AH,Tufts Insurance Company
+150,AH,United Concordia Insurance Company of New York
+151,AH,UnitedHealthcare Insurance Company of New York
+152,HMO,"Unitedhealthcare of New York, Inc."
+153,AH,"WellCare Health Insurance of New York, Inc."
+154,AH,"WellCare Prescription Insurance, Inc."
+155,A&H,Accendo Insurance Company
+156,HMO,Aetna Health Inc.
+157,A&H,Aetna Health Insurance Company of New York
+158,HMO,"Alphacare of New York, Inc."
+159,A&H,American Independent Network Insurance Company of New York
+160,HMO,"Atlantis Health Plan, Inc."
+161,HMO,Capital District Physicians Health Plan
+162,A&H,Care Improvement Plus of South Central Insurance Company
+163,A&H,Care Improvement Plus of TX Ins Co
+164,HMO,"Catholic Special Needs Plan, LLC"
+165,HMDI,"CDPHP Universal Benefits, Inc."
+166,A&H,Commercial Travelers Mutual Insurance Company
+167,HMO,Cuatro LLC
+168,A&H,Delta Dental Insurance Company
+169,HMDI,"Delta Dental of New York, Inc."
+170,HMDI,"Dentcare Delivery Systems, Inc."
+171,HMDI,"Eastern Vision Service Plan, Inc."
+172,HMO,"Elderplan, Inc."
+173,A&H,"Empire HealthChoice Assurance, Inc."
+174,HMO,"Empire HealthChoice HMO, Inc."
+175,A&H,Envision Insurance Company
+176,HMDI,"Excellus Health Plan, Inc."
+177,A&H,Express Scripts Insurance Company
+178,A&H,"Freelancers Insurance Company, Inc."
+179,HMDI,Group Health Incorporated
+180,A&H,"Health Insurance Company of America, Inc."
+181,HMDI,Health Insurance Plan of Greater New York
+182,A&H,"Health Net Insurance of New York, Inc."
+183,HMDI,Healthnow New York Inc.
+184,A&H,Healthplex Insurance Company
+185,HMDI,"Health Republic Insurance of New York, Corp"
+186,A&H,"HealthSpring Life & Health Insurance Company, Inc."
+187,A&H,HIP Insurance Company of New York
+188,HMO,"Humana Health Company of New York, Inc."
+189,A&H,Humana Insurance Company of New York
+190,HMO,"Independent Health Association, Inc."
+191,HMDI,Independent Health Benefits Corporation
+192,HMO,"Managed Health, Inc."
+193,A&H,MedAmerica Insurance Company of New York
+194,A&H,Medco Containment Insurance Company of New York
+195,A&H,Mutual of Omaha Insurance Company
+196,A&H,MVP Health Insurance Company
+197,HMO,"MVP Health Plan, Inc."
+198,HMDI,MVP Health Services Corp.
+199,A&H,North Shore LIJ CareConnect Insurance Company
+200,A&H,Northwestern Long Term Care Insurance Company
+201,A&H,Oscar Insurance Corporation
+202,A&H,"Oxford Health Insurance, Inc."
+203,HMO,"Oxford Health Plans (NY), Inc."
+204,A&H,Physicians Mutual Insurance Company
+205,A&H,Premier Access Insurance Company
+206,HMDI,"Pupil Benefits Plan, Inc."
+207,HMO,"Quality Health Plans of New York, Inc."
+208,A&H,Renaissance Health Insurance Company of New York
+209,A&H,"Security Health Insurance Company of America, New York, Inc."
+210,HMO,"Senior Whole Health of New York, Inc."
+211,A&H,"Sierra Health and Life Insurance Co, Inc."
+212,A&H,SilverScript Insurance Company
+213,A&H,Solstice Health Insurance Company
+214,HMO,"Touchstone Health HMO, Inc."
+215,A&H,Trustmark Insurance Company
+216,A&H,Tufts Insurance Company
+217,A&H,United Concordia Insurance Company of New York
+218,A&H,UnitedHealthcare Insurance Company of New York
+219,HMO,"Unitedhealthcare of New York, Inc."
+220,A&H,"WellCare Health Insurance of New York, Inc."
+221,A&H,"WellCare Prescription Insurance, Inc."
