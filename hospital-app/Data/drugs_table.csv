@@ -1,0 +1,632 @@
+id,name
+1,Valsartan
+2,Guanfacine
+3,Buprenorphine / naloxone
+4,Cialis
+5,Levonorgestrel
+6,Aripiprazole
+7,Keppra
+8,Topiramate
+9,L-methylfolate
+10,Pentasa
+11,Dextromethorphan
+12,Liraglutide
+13,Trimethoprim
+14,Amitriptyline
+15,Lamotrigine
+16,Nilotinib
+17,Atripla
+18,Trazodone
+19,Etanercept
+20,Tioconazole
+21,Azithromycin
+22,Eflornithine
+23,Daytrana
+24,Ativan
+25,Imitrex
+26,Sertraline
+27,Toradol
+28,Viberzi
+29,Mobic
+30,Dulcolax
+31,Morphine
+32,MoviPrep
+33,Trilafon
+34,Fluconazole
+35,Contrave
+36,Clonazepam
+37,Metaxalone
+38,Venlafaxine
+39,Ledipasvir / sofosbuvir
+40,Symbyax
+41,Tamsulosin
+42,Doxycycline
+43,Dulaglutide
+44,Intuniv
+45,Buprenorphine
+46,Qvar
+47,Opdivo
+48,Pyridium
+49,Latuda
+50,Bupropion
+51,Effexor XR
+52,Prepopik
+53,Tretinoin
+54,Ethinyl estradiol / norgestimate
+55,Elbasvir / grazoprevir
+56,Clomiphene
+57,Docusate / senna
+58,Amitiza
+59,Sildenafil
+60,Oxcarbazepine
+61,Wellbutrin
+62,Phillips' Milk of Magnesia
+63,Nature-Throid
+64,Lithium
+65,Oxycodone
+66,Estradiol
+67,Augmentin XR
+68,Monistat 7-Day Combination Pack
+69,Plan B One-Step
+70,Alprazolam
+71,Fluoxetine
+72,Spironolactone
+73,Fluvoxamine
+74,Macrobid
+75,Lurasidone
+76,Adapalene / benzoyl peroxide
+77,Brimonidine
+78,Amlodipine / olmesartan
+79,Linaclotide
+80,Mirtazapine
+81,Acetaminophen / hydrocodone
+82,Isotretinoin
+83,Ropinirole
+84,Zoledronic acid
+85,Lamictal
+86,Buspirone
+87,Propranolol
+88,Focalin
+89,Levofloxacin
+90,Phentermine / topiramate
+91,Cephalexin
+92,Saxenda
+93,Clomipramine
+94,Medroxyprogesterone
+95,Aczone
+96,Nicoderm CQ
+97,Naltrexone
+98,Restasis
+99,Olanzapine
+100,Oxytrol
+101,Fentanyl
+102,Epiduo
+103,Accutane
+104,Xanax
+105,Desvenlafaxine
+106,Lyrica
+107,Phenergan
+108,Loestrin 21 1 / 20
+109,Loratadine
+110,Cardura XL
+111,Viibryd
+112,Propofol
+113,Camphor / menthol
+114,Hydroxychloroquine
+115,Lorcaserin
+116,Insulin degludec
+117,Trintellix
+118,Lupron Depot
+119,Zanaflex
+120,Miconazole
+121,Opana ER
+122,Provera
+123,Diflucan
+124,Ibrance
+125,Lisinopril
+126,Empagliflozin
+127,Naproxen
+128,Amoxicillin / clarithromycin / lansoprazole
+129,Metoprolol
+130,Naloxegol
+131,Leuprolide
+132,Ulipristal
+133,Benzonatate
+134,Sulfamethoxazole / trimethoprim
+135,Eletriptan
+136,Escitalopram
+137,Dulera
+138,Prempro
+139,Gemfibrozil
+140,Depakote
+141,Testosterone
+142,Zomig
+143,Vyvanse
+144,Solodyn
+145,Efavirenz / emtricitabine / tenofovir
+146,Methimazole
+147,Aleve
+148,Tylenol with Codeine #3
+149,Victoza
+150,Lubiprostone
+151,Sovaldi
+152,Pristiq
+153,Temozolomide
+154,Nabumetone
+155,Meloxicam
+156,Cevimeline
+157,ProAir RespiClick
+158,Gabapentin
+159,Relpax
+160,Levomilnacipran
+161,Valtrex
+162,Clindamycin
+163,BuSpar
+164,Plan B
+165,Trolamine salicylate
+166,Lisdexamfetamine
+167,Qsymia
+168,Rizatriptan
+169,Ziana
+170,Boudreaux Butt Paste
+171,Cymbalta
+172,Zoloft
+173,Tizanidine
+174,Gastrocrom
+175,Amphetamine / dextroamphetamine
+176,Exenatide
+177,Paroxetine
+178,Bontril Slow Release
+179,Levothroid
+180,Carbamazepine
+181,Adipex-P
+182,Bydureon
+183,Bupropion / naltrexone
+184,Voltaren-XR
+185,Pimecrolimus
+186,Acetaminophen / oxycodone
+187,Monistat 7
+188,Pramipexole
+189,AndroGel
+190,Nitrofurantoin
+191,Metronidazole
+192,Ziprasidone
+193,Acetaminophen / butalbital / caffeine
+194,Nuvigil
+195,Moxifloxacin
+196,Methadone
+197,Celecoxib
+198,Aspirin / butalbital / caffeine
+199,Montelukast
+200,Saliva substitutes
+201,Atomoxetine
+202,Anastrozole
+203,Phenol
+204,Duloxetine
+205,Magnesium sulfate / potassium sulfate / sodium sulfate
+206,Lansoprazole
+207,Nardil
+208,Milnacipran
+209,Oxymorphone
+210,Acetaminophen / aspirin / caffeine
+211,Levaquin
+212,Ciprofloxacin
+213,Avelox
+214,Acidophilus
+215,Metformin
+216,Terconazole
+217,Saphris
+218,Augmentin
+219,Lexapro
+220,Tamiflu
+221,Prazosin
+222,Liothyronine
+223,Seroquel
+224,Terbinafine
+225,Valium
+226,Norco
+227,Progesterone
+228,Concerta
+229,Strattera
+230,Mylanta
+231,TriNessa
+232,Goserelin
+233,Quetiapine
+234,Testim
+235,Emend
+236,Methylphenidate
+237,Acyclovir
+238,Linzess
+239,Orthovisc
+240,Silodosin
+241,Metoclopramide
+242,Indomethacin
+243,Meclizine
+244,Gilenya
+245,Depo-Provera
+246,Klonopin
+247,Codeine / guaifenesin
+248,Citalopram
+249,Colazal
+250,Fiorinal with Codeine
+251,Zolpidem
+252,Wellbutrin XL
+253,Climara Pro
+254,Clarithromycin
+255,Bactrim DS
+256,Varenicline
+257,Amoxicillin / clavulanate
+258,Tolterodine
+259,Hydroxyzine
+260,Ramelteon
+261,Infliximab
+262,Rabeprazole
+263,Dexilant
+264,Immune globulin oral
+265,Nucynta
+266,Hysingla ER
+267,Pantoprazole
+268,Sprycel
+269,Tri-Sprintec
+270,Zofran
+271,Versed
+272,Cipro
+273,MS Contin
+274,Avonex
+275,Focalin XR
+276,Imdur
+277,Diazepam
+278,Bisacodyl
+279,Suvorexant
+280,Risperidone
+281,Risperdal
+282,Simponi
+283,Euflexxa
+284,Diclofenac
+285,Dimenhydrinate
+286,Benztropine
+287,Ibuprofen
+288,Sumatriptan
+289,Polyethylene glycol 3350
+290,Xenical
+291,Glatiramer
+292,Atarax
+293,Alirocumab
+294,Sublimaze
+295,femhrt
+296,Lortab
+297,Haldol
+298,Tapentadol
+299,Ketorolac
+300,Phentermine
+301,Effexor
+302,Remicade
+303,Flexeril
+304,SMZ-TMP DS
+305,Dutasteride
+306,Thyroid desiccated
+307,Opana
+308,Zyprexa
+309,Vedolizumab
+310,Chantix
+311,Suboxone
+312,Mirapex
+313,Uribel
+314,Vicks Sinex Nasal Spray (old formulation)
+315,Bactrim
+316,Ceftriaxone
+317,Ranexa
+318,Trulicity
+319,Percocet
+320,Sitagliptin
+321,Formoterol / mometasone
+322,Ambien
+323,Belviq
+324,Retapamulin
+325,Vigamox
+326,Levetiracetam
+327,Mirena
+328,Elidel
+329,Abilify Discmelt
+330,Delsym 12 Hour Cough Relief
+331,Baclofen
+332,Halobetasol
+333,Azelastine / fluticasone
+334,Drysol
+335,Cimzia
+336,Rexulti
+337,Proctofoam
+338,Cefdinir
+339,Tramadol
+340,Norflex
+341,Humira
+342,Tecfidera
+343,Acetaminophen / dichloralphenazone / isometheptene mucate
+344,Benzoyl peroxide / clindamycin
+345,Methyl salicylate
+346,Monistat 3-Day Combination Pack
+347,Clindamycin / tretinoin
+348,Flonase
+349,Alvesco
+350,Nystatin
+351,EContra EZ
+352,TriCor
+353,Diphenhydramine
+354,Neulasta
+355,Zolmitriptan
+356,Levothyroxine
+357,Differin
+358,Ibandronate
+359,Zithromax
+360,Compazine
+361,Topamax
+362,Ustekinumab
+363,Minocycline
+364,Ultram ER
+365,Nortriptyline
+366,Pregabalin
+367,Suprep Bowel Prep Kit
+368,Armour Thyroid
+369,Mirvaso
+370,Atralin
+371,Drospirenone / ethinyl estradiol
+372,Crestor
+373,Rozerem
+374,Sucralfate
+375,Efinaconazole
+376,Cetirizine
+377,Amoxicillin
+378,Soma
+379,Neupro
+380,Valacyclovir
+381,Toprol-XL
+382,Sodium oxybate
+383,Mesalamine
+384,Orlistat
+385,Butorphanol
+386,Humatrope
+387,Diltiazem
+388,Hydrocodone
+389,Ritalin
+390,Kapvay
+391,Prozac
+392,Vicodin
+393,Falmina
+394,Relafen
+395,Restoril
+396,Frovatriptan
+397,Losartan
+398,Xyrem
+399,ella
+400,Spiriva
+401,Tasigna
+402,Dupixent
+403,Lorazepam
+404,Cyproheptadine
+405,Repatha
+406,Docusate
+407,Hydrochlorothiazide
+408,Scopolamine
+409,Flurbiprofen
+410,Femara
+411,Methotrexate
+412,Hypercare
+413,Epinephrine
+414,Ethinyl estradiol / levonorgestrel
+415,Brimonidine / timolol
+416,Mucinex D
+417,Azor
+418,Voltaren
+419,Vortioxetine
+420,Seroquel XR
+421,Detrol LA
+422,Sporanox
+423,Febuxostat
+424,Eluxadoline
+425,Neurontin
+426,Ondansetron
+427,Gardasil
+428,Avastin
+429,Paliperidone
+430,Penicillin v potassium
+431,Tofacitinib
+432,St. john's wort
+433,Rythmol SR
+434,Vytorin
+435,Dilaudid
+436,Vilazodone
+437,Librium
+438,Duac
+439,Dapsone
+440,Vicodin ES
+441,Hydromorphone
+442,Zyban
+443,Ranitidine
+444,Arava
+445,Adderall
+446,Ruconest
+447,Pseudoephedrine / triprolidine
+448,Etodolac
+449,Emsam
+450,Diovan
+451,Ammonium lactate
+452,Desmopressin
+453,Zepatier
+454,Magnesium hydroxide
+455,Butrans
+456,Loestrin 24 Fe
+457,Botox
+458,Azelastine
+459,Xalkori
+460,Zyvox
+461,Rocephin
+462,Toujeo
+463,Dexlansoprazole
+464,Brexpiprazole
+465,Roxicodone Intensol
+466,Reglan
+467,Divalproex sodium
+468,Tindamax
+469,MetroGel-Vaginal
+470,Tadalafil
+471,Flecainide
+472,Flagyl
+473,Ovace Plus
+474,Secobarbital
+475,Empagliflozin / linagliptin
+476,Raltegravir
+477,Ampyra
+478,Celebrex
+479,Colchicine
+480,Geodon
+481,Aluminum chloride hexahydrate
+482,Tryptophan
+483,Myrbetriq
+484,Malarone
+485,Fetzima
+486,Omeprazole
+487,Fluoride
+488,Jardiance
+489,Turmeric
+490,Secukinumab
+491,Ethinyl estradiol / norgestrel
+492,Nifedipine
+493,Celexa
+494,Prednisone
+495,Methocarbamol
+496,Haldol Decanoate
+497,Taclonex
+498,Decadron
+499,Vardenafil
+500,Oxazepam
+501,Dexmethylphenidate
+502,Yaz
+503,Firmagon
+504,Phenazopyridine
+505,Tiotropium
+506,Savella
+507,Cataflam
+508,Cobicistat / elvitegravir / emtricitabine / tenofovir
+509,Ramipril
+510,Relistor
+511,Paxil
+512,Stelara
+513,Cambia
+514,Ezetimibe
+515,Mefenamic acid
+516,Budesonide / formoterol
+517,Doryx
+518,Ethinyl estradiol / norethindrone
+519,Dymista
+520,Omalizumab
+521,Lunesta
+522,Mometasone
+523,Phenylephrine
+524,VESIcare
+525,Kapidex
+526,Lomotil
+527,Clomid
+528,Clozapine
+529,Olopatadine
+530,Narcan Injection
+531,Mirabegron
+532,Wellbutrin SR
+533,Tinidazole
+534,Asenapine
+535,Penicillin VK
+536,Oxymetazoline
+537,EpiCeram
+538,Temazepam
+539,Oxybutynin
+540,Armodafinil
+541,Epclusa
+542,Dalfampridine
+543,OnabotulinumtoxinA
+544,Doxylamine / pyridoxine
+545,Vancomycin
+546,Naproxen / sumatriptan
+547,Fastin
+548,Protonix
+549,Bazedoxifene / conjugated estrogens
+550,Chloral hydrate
+551,Lialda
+552,Maxalt
+553,Denosumab
+554,Boniva
+555,Sklice
+556,Acetazolamide
+557,Clinpro 5000
+558,Zelapar
+559,Desloratadine
+560,Cyclobenzaprine
+561,Docosanol
+562,Acetaminophen
+563,Chaparral
+564,Hyaluronan
+565,Polyethylene glycol 3350 with electrolytes
+566,Mestranol / norethindrone
+567,Melatonin
+568,Symbicort
+569,Emollients
+570,Colesevelam
+571,Zyclara
+572,Aspirin / caffeine
+573,Aviane
+574,Abreva
+575,Isocarboxazid
+576,Correctol
+577,Plecanatide
+578,Xarelto
+579,Prevacid
+580,Simvastatin
+581,Carbatrol
+582,Dapagliflozin
+583,Tresiba
+584,Oracea
+585,Abilify
+586,Meperidine
+587,Tamoxifen
+588,Harvoni
+589,Imiquimod
+590,Trospium
+591,Limbitrol
+592,Zegerid
+593,Diethylpropion
+594,Limbrel
+595,Verapamil
+596,Premarin
+597,Pentazocine
+598,Apremilast
+599,Ciclesonide
+600,Microgestin Fe 1 / 20
+601,Canagliflozin
+602,Megestrol
+603,Otezla
+604,Zenzedi
+605,Phosphorated carbohydrate solution
+606,Influenza virus vaccine  live  trivalent
+607,Deplin
+608,Methylprednisolone
+609,Invega
+610,Cutar
+611,Serzone
+612,Biaxin XL
+613,Coreg
+614,Lorcet 10 / 650
+615,Letrozole
+616,Cefuroxime
+617,Sectral
+618,Belladonna / opium
+619,Flomax
+620,My Way
+621,Belsomra
+622,Adapalene
+623,Promethazine
+624,Fentanyl Transdermal System
+625,Desoxyn
+626,Tegretol
+627,Oseltamivir
+628,Kombiglyze XR
+629,Minoxidil
+630,Enbrel
+631,Adalimumab
